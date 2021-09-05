@@ -1,0 +1,51 @@
+Script Scope/ Function 
+-----------------------
+1-Testing Create new account for user
+2-Testing login after create  new account
+3-Testing functionality of Cart Checkout after add blouse to the card and validate orderwas placed from order history page.
+
+Prerequisites
+-------------
+•JDK 15
+•IDE (IntelliJ OR Eclipse)
+
+Built With
+-----------
+•[Java] 
+•[Selenium WebDriver] 
+•[Maven]
+•[TestNG] 
+•[POM] - Page Object Model
+•[BDD] - Behavior Driven Development
+•[Cucumber maven reporting]
+
+
+Running the tests
+-----------------
+•( testng.xml ) can be found in the root path of the project
+• Right click on Runner class in any package then click on Run as Testng
+
+Steps to Run the Script
+-----------------------
+1-Import the project as Maven Project
+
+2- First u need to check if Maven is working on ur Pc or not by close Proxy and Vpn then right click on pom.xml on test-output file 
+and click on run --> Maven install 
+
+
+3- Now U can start inserting ur data on code by below steps : 
+
+	. open Feature file and enter ur required data 
+	
+4-use tag @NotRun for not run any scenario
+	
+Author
+--------
+•Esraa Yehia Fathy 
+	
+	
+
+4- Now u can Run the project by Right click on selectBlouseFollowCheckOutRunner on src/test/java/selectBlouseAndCardCheckoutWithOrderValidation Package then click on Run as Testng
+   
+   
+5- U can check report after run script on  target folder /cucumber-html-report /index.html
